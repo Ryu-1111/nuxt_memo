@@ -41,7 +41,7 @@ color="light-blue lighten-1">
           rounded
           @click="toggle"
         >
-          Options {{ n }}
+       
         </v-btn>
             
           
