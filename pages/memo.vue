@@ -22,47 +22,687 @@ color="light-blue lighten-1">
   tile
  >
 
-        <v-flex 
+<v-flex 
  class="d-flex justify-space-between mx-1">  
           <v-sheet
-        v-for="item_b in 8"
-        :key="item_b"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-btn
-          class="mx-2"
-          :input-value="active"
-          active-class="purple white--text"
-          depressed
-          rounded
-          @click="toggle"
-        >
-       
-        </v-btn>
-            
-          
+<v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_1 = !f_1"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_1 = !b_1"
+      >
+      </v-btn>      
 
-
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_1"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_1"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
 </v-sheet>
-           </v-flex>
 
-
-
-<v-flex my-1
-class="d-flex justify-space-between mx-1">
-<v-btn id="2_dannme"
-v-for="item_b in 8"
-        :key="item_b"
+<v-sheet
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
-></v-btn>
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_2 = !f_2"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_2 = !b_2"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_2"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_2"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_3 = !f_3"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_3 = !b_3"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_3"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_3"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_4 = !f_4"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_4 = !b_4"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_4"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_4"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_5 = !f_5"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_5 = !b_5"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_5"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_5"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_6 = !f_6"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_6 = !b_6"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_6"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_6"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_7 = !f_7"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_7 = !b_7"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_7"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_7"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="1_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_8 = !f_8"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_8 = !b_8"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_8"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_8"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+</v-flex>
+
+
+
+
+
+
+<v-flex my-1
+class="d-flex justify-space-between mx-1">
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_9 = !f_9"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_9 = !b_9"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_9"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_9"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_10 = !f_10"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_10 = !b_10"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_10"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_10"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_11 = !f_11"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_11 = !b_11"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_11"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_11"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_12 = !f_12"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_12 = !b_12"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_12"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_12"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_13 = !f_13"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_13 = !b_13"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_13"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_13"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_14 = !f_14"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_14 = !b_14"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_14"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_14"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_15 = !f_15"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_15 = !b_15"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_15"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_15"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+ <v-col class="2_dannme">
+      <v-btn
+  x-small
+  fab
+        color="white"
+        @click="f_16 = !f_16"
+      >
+      </v-btn>
+      <v-btn
+  x-small
+  fab
+        color="black"
+        @click="b_16 = !b_16"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar
+          v-show="f_16"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar
+          v-show="b_16"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
 </v-flex>
 
 
@@ -175,9 +815,42 @@ v-for="item_g in 8"
 </template>
 
 <script>
-  export default {
+export default {
     data: () => ({
-      hidden: false,
+      expand: false,
+      f_1: false,
+      b_1: false,
+      f_2: false,
+      b_2: false,
+      f_3: false,
+      b_3: false,
+      f_4: false,
+      b_4: false,
+      f_5: false,
+      b_5: false,
+      f_6: false,
+      b_6: false,
+      f_7: false,
+      b_7: false,
+      f_8: false,
+      b_8: false,
+      f_9: false,
+      b_9: false,
+      f_10: false,
+      b_10: false,
+      f_11: false,
+      b_11: false,
+      f_12: false,
+      b_12: false,
+      f_13: false,
+      b_13: false,
+      f_14: false,
+      b_14: false,
+      f_15: false,
+      b_15: false,
+      f_16: false,
+      b_16: false,
+
     }),
   }
 </script>
