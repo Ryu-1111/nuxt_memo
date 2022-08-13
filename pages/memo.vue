@@ -24,7 +24,7 @@ color="light-blue lighten-1">
 
 <v-flex 
  class="d-flex justify-space-between mx-1">  
-          <v-sheet
+          <v-sheet class="board_1"
   color="green lighten-1"
   height="70"
   width="70"
@@ -32,23 +32,27 @@ color="light-blue lighten-1">
   tile
 >
 <v-col class="1_dannme">
-      <v-btn
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_1 = !f_1"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_1 = !b_1"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_1"
           color="white"
           height="55"
@@ -56,7 +60,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_1"
           color="black"
           height="55"
@@ -66,31 +70,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+ <v-sheet class="board_2"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_2 = !f_2"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_2 = !b_2"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_2"
           color="white"
           height="55"
@@ -98,7 +106,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_2"
           color="black"
           height="55"
@@ -108,7 +116,7 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+ <v-sheet class="board_3"
   color="green lighten-1"
   height="70"
   width="70"
@@ -116,23 +124,27 @@ color="light-blue lighten-1">
   tile
 >
 <v-col class="1_dannme">
-      <v-btn
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_3 = !f_3"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_3 = !b_3"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_3"
           color="white"
           height="55"
@@ -140,7 +152,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_3"
           color="black"
           height="55"
@@ -150,31 +162,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+ <v-sheet class="board_4"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_4 = !f_4"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_4 = !b_4"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_4"
           color="white"
           height="55"
@@ -182,7 +198,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_4"
           color="black"
           height="55"
@@ -192,31 +208,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+<v-sheet class="board_5"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_5 = !f_5"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_5 = !b_5"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_5"
           color="white"
           height="55"
@@ -224,7 +244,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_5"
           color="black"
           height="55"
@@ -234,31 +254,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+<v-sheet class="board_6"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_6 = !f_6"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_6 = !b_6"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_6"
           color="white"
           height="55"
@@ -266,7 +290,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_6"
           color="black"
           height="55"
@@ -276,31 +300,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+<v-sheet class="board_7"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_7 = !f_7"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_7 = !b_7"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_7"
           color="white"
           height="55"
@@ -308,7 +336,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_7"
           color="black"
           height="55"
@@ -318,31 +346,35 @@ color="light-blue lighten-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
+<v-sheet class="board_8"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="1_dannme">
-      <v-btn
+<v-col class="1_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_8 = !f_8"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_8 = !b_8"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_8"
           color="white"
           height="55"
@@ -350,7 +382,7 @@ color="light-blue lighten-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_8"
           color="black"
           height="55"
@@ -365,34 +397,37 @@ color="light-blue lighten-1">
 
 
 
-
 <v-flex my-1
 class="d-flex justify-space-between mx-1">
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_9"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
 <v-col class="2_dannme">
-      <v-btn
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_9 = !f_9"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_9 = !b_9"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_9"
           color="white"
           height="55"
@@ -400,7 +435,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_9"
           color="black"
           height="55"
@@ -410,31 +445,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_10"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_10 = !f_10"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_10 = !b_10"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_10"
           color="white"
           height="55"
@@ -442,7 +481,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_10"
           color="black"
           height="55"
@@ -452,31 +491,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_11"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_11 = !f_11"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_11 = !b_11"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_11"
           color="white"
           height="55"
@@ -484,7 +527,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_11"
           color="black"
           height="55"
@@ -494,31 +537,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_12"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_12 = !f_12"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_12 = !b_12"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_12"
           color="white"
           height="55"
@@ -526,7 +573,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_12"
           color="black"
           height="55"
@@ -536,31 +583,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_13"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_13 = !f_13"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_13 = !b_13"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_13"
           color="white"
           height="55"
@@ -568,7 +619,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_13"
           color="black"
           height="55"
@@ -578,31 +629,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_14"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_14 = !f_14"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_14 = !b_14"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_14"
           color="white"
           height="55"
@@ -610,7 +665,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_14"
           color="black"
           height="55"
@@ -620,31 +675,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_15"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_15 = !f_15"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_15 = !b_15"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_15"
           color="white"
           height="55"
@@ -652,7 +711,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_15"
           color="black"
           height="55"
@@ -662,31 +721,35 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 
-<v-sheet
-  color="green lighten-1"
+<v-sheet class="board_16"
+  color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
- <v-col class="2_dannme">
-      <v-btn
+<v-col class="2_dannme">
+      <v-btn class="mt-n10 ml-n3"
   x-small
   fab
+  height="10"
+          width="10"
         color="white"
         @click="f_16 = !f_16"
       >
       </v-btn>
-      <v-btn
+      <v-btn class="mt-n10 ml-n1"
   x-small
   fab
+  height="10"
+          width="10"
         color="black"
         @click="b_16 = !b_16"
       >
       </v-btn>      
 
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="f_16"
           color="white"
           height="55"
@@ -694,7 +757,7 @@ class="d-flex justify-space-between mx-1">
         ></v-avatar>
       </v-expand-transition>
       <v-expand-transition>
-       <v-avatar
+       <v-avatar class="mt-n7 ml-n1"
           v-show="b_16"
           color="black"
           height="55"
@@ -704,7 +767,6 @@ class="d-flex justify-space-between mx-1">
     </v-col>
 </v-sheet>
 </v-flex>
-
 
 
 <v-flex my-1
