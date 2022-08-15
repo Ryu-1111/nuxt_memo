@@ -41,7 +41,7 @@ color="light-blue lighten-1">
         @click="f_1 = !f_1"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -87,7 +87,7 @@ color="light-blue lighten-1">
         @click="f_2 = !f_2"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -133,7 +133,7 @@ color="light-blue lighten-1">
         @click="f_3 = !f_3"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -179,7 +179,7 @@ color="light-blue lighten-1">
         @click="f_4 = !f_4"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -225,7 +225,7 @@ color="light-blue lighten-1">
         @click="f_5 = !f_5"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -271,7 +271,7 @@ color="light-blue lighten-1">
         @click="f_6 = !f_6"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -317,7 +317,7 @@ color="light-blue lighten-1">
         @click="f_7 = !f_7"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -363,7 +363,7 @@ color="light-blue lighten-1">
         @click="f_8 = !f_8"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -416,7 +416,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_9 = !f_9"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -462,7 +462,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_10 = !f_10"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -508,7 +508,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_11 = !f_11"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -554,7 +554,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_12 = !f_12"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -600,7 +600,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_13 = !f_13"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -646,7 +646,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_14 = !f_14"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -692,7 +692,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_15 = !f_15"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -738,7 +738,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_16 = !f_16"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -791,7 +791,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_17 = !f_17"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -837,7 +837,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_18 = !f_18"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -883,7 +883,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_19 = !f_19"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -929,7 +929,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_20 = !f_20"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -975,7 +975,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_21 = !f_21"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1021,7 +1021,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_22 = !f_22"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1067,7 +1067,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_23 = !f_23"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1113,7 +1113,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_24 = !f_24"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1167,7 +1167,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_25 = !f_25"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1213,7 +1213,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_26 = !f_26"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1259,7 +1259,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_27 = !f_27"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1305,7 +1305,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_28 = !f_28"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1351,7 +1351,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_29 = !f_29"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1397,7 +1397,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_30 = !f_30"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1443,7 +1443,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_31 = !f_31"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1489,7 +1489,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_32 = !f_32"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1541,7 +1541,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_33 = !f_33"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1587,7 +1587,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_34 = !f_34"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1633,7 +1633,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_35 = !f_35"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1679,7 +1679,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_36 = !f_36"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1725,7 +1725,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_37 = !f_37"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1771,7 +1771,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_38 = !f_38"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1817,7 +1817,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_39 = !f_39"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1863,7 +1863,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_40 = !f_40"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1915,7 +1915,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_41 = !f_41"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -1961,7 +1961,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_42 = !f_42"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2007,7 +2007,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_43 = !f_43"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2053,7 +2053,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_44 = !f_44"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2099,7 +2099,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_45 = !f_45"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2145,7 +2145,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_46 = !f_46"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2191,7 +2191,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_47 = !f_47"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2237,7 +2237,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_48 = !f_48"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2288,7 +2288,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_49 = !f_49"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2334,7 +2334,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_50 = !f_50"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2380,7 +2380,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_51 = !f_51"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2426,7 +2426,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_52 = !f_52"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2472,7 +2472,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_53 = !f_53"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2518,7 +2518,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_54 = !f_54"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2564,7 +2564,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_55 = !f_55"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2610,7 +2610,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_56 = !f_56"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2661,7 +2661,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_57 = !f_57"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2707,7 +2707,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_58 = !f_58"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2753,7 +2753,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_59 = !f_59"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2799,7 +2799,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_60 = !f_60"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2845,7 +2845,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_61 = !f_61"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2891,7 +2891,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_62 = !f_62"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2937,7 +2937,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_63 = !f_63"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
@@ -2983,7 +2983,7 @@ class="d-flex justify-space-between mx-1">
         @click="f_64 = !f_64"
       >
       </v-btn>
-      <v-btn class="mt-n10 ml-n1"
+      <v-btn class="ml-8 mt-n10"
   x-small
   fab
   height="10"
