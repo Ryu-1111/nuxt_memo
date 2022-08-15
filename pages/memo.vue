@@ -766,91 +766,2252 @@ class="d-flex justify-space-between mx-1">
       </v-expand-transition>
     </v-col>
 </v-sheet>
+
+
 </v-flex>
 
 
 <v-flex my-1
 class="d-flex justify-space-between mx-1">
-<v-btn id="2_dannme"
-v-for="item_b in 8"
-        :key="item_b"
+
+<v-sheet class="board_17"
   color="green lighten-1"
   height="70"
   width="70"
   fab
   tile
-></v-btn>
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_17 = !f_17"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_17 = !b_17"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_17"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_17"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_18"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_18 = !f_18"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_18 = !b_18"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_18"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_18"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_19"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_19 = !f_19"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_19 = !b_19"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_19"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_19"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_20"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_20 = !f_20"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_20 = !b_20"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_20"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_20"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_21"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_21 = !f_21"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_21 = !b_21"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_21"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_21"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_22"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_22 = !f_22"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_22 = !b_22"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_22"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_22"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_23"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_23 = !f_23"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_23 = !b_23"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_23"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_23"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_24"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="3_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_24 = !f_24"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_24 = !b_24"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_24"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_24"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+
 </v-flex>
 
 
 
 <v-flex my-1
 class="d-flex justify-space-between mx-1">
-<v-btn id="3_dannme"
-v-for="item_c in 8"
-        :key="item_c"
+
+<v-sheet class="board_25"
   color="green darken-1"
   height="70"
   width="70"
   fab
   tile
 >
-</v-btn>
-</v-flex>
-
-
-
-<v-flex my-1
-class="d-flex justify-space-between mx-1">
-<v-btn id="4_dannme"
-v-for="item_d in 8"
-        :key="item_d"
-  color="green lighten-1"
-  height="70"
-  width="70"
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
   fab
-  tile
-></v-btn>
-</v-flex>
+  height="10"
+          width="10"
+        color="white"
+        @click="f_25 = !f_25"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_25 = !b_25"
+      >
+      </v-btn>      
 
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_25"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_25"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
 
-<v-flex my-1
-class="d-flex justify-space-between mx-1">
-<v-btn id="5_dannme"
-v-for="item_e in 8"
-        :key="item_e"
+<v-sheet class="board_26"
   color="green darken-1"
   height="70"
   width="70"
   fab
   tile
-></v-btn>
-</v-flex>
-
-<v-flex my-1
-class="d-flex justify-space-between mx-1">
-<v-btn id="6_dannme"
-v-for="item_f in 8"
-        :key="item_f"
-  color="green lighten-1"
-  height="70"
-  width="70"
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
   fab
-  tile
-></v-btn>
-</v-flex>
+  height="10"
+          width="10"
+        color="white"
+        @click="f_26 = !f_26"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_26 = !b_26"
+      >
+      </v-btn>      
 
-<v-flex my-1
-class="d-flex justify-space-between mx-1">
-<v-btn id="7_dannme"
-v-for="item_g in 8"
-        :key="item_g"
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_26"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_26"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_27"
   color="green darken-1"
   height="70"
   width="70"
   fab
   tile
-></v-btn>
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_27 = !f_27"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_27 = !b_27"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_27"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_27"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_28"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_28 = !f_28"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_28 = !b_28"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_28"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_28"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_29"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_29 = !f_29"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_29 = !b_29"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_29"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_29"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_30"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_30 = !f_30"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_30 = !b_30"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_30"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_30"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_31"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_31 = !f_31"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_31 = !b_31"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_31"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_31"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_32"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="4_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_32 = !f_32"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_32 = !b_32"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_32"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_32"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+</v-flex>
+
+
+
+<v-flex my-1
+class="d-flex justify-space-between mx-1">
+
+<v-sheet class="board_33"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_33 = !f_33"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_33 = !b_33"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_33"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_33"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_34"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_34 = !f_34"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_34 = !b_34"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_34"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_34"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_35"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_35 = !f_35"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_35 = !b_35"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_35"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_35"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_36"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_36 = !f_36"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_36 = !b_36"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_36"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_36"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_37"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_37 = !f_37"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_37 = !b_37"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_37"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_37"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_38"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_38 = !f_38"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_38 = !b_38"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_38"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_38"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_39"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_39 = !f_39"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_39 = !b_39"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_39"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_39"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_40"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="5_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_40 = !f_40"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_40 = !b_40"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_40"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_40"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+</v-flex>
+
+
+<v-flex my-1
+class="d-flex justify-space-between mx-1">
+
+<v-sheet class="board_41"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_41 = !f_41"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_41 = !b_41"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_41"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_41"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_42"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_42 = !f_42"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_42 = !b_42"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_42"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_42"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_43"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_43 = !f_43"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_43 = !b_43"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_43"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_43"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_44"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_44 = !f_44"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_44 = !b_44"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_44"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_44"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_45"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_45 = !f_45"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_45 = !b_45"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_45"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_45"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_46"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_46 = !f_46"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_46 = !b_46"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_46"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_46"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_47"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_47 = !f_47"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_47 = !b_47"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_47"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_47"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_48"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="6_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_48 = !f_48"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_48 = !b_48"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_48"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_48"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+</v-flex>
+
+<v-flex my-1
+class="d-flex justify-space-between mx-1">
+
+<v-sheet class="board_49"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_49 = !f_49"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_49 = !b_49"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_49"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_49"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_50"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_50 = !f_50"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_50 = !b_50"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_50"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_50"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_51"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_51 = !f_51"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_51 = !b_51"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_51"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_51"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_52"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_52 = !f_52"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_52 = !b_52"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_52"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_52"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_53"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_53 = !f_53"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_53 = !b_53"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_53"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_53"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_54"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_54 = !f_54"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_54 = !b_54"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_54"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_54"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_55"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_55 = !f_55"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_55 = !b_55"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_55"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_55"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_56"
+  color="green lighten-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="7_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_56 = !f_56"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_56 = !b_56"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_56"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_56"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+</v-flex>
+
+<v-flex my-1
+class="d-flex justify-space-between mx-1">
+
+<v-sheet class="board_57"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_57 = !f_57"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_57 = !b_57"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_57"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_57"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_58"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_58 = !f_58"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_58 = !b_58"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_58"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_58"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_59"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_59 = !f_59"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_59 = !b_59"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_59"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_59"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_60"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_60 = !f_60"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_60 = !b_60"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_60"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_60"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_61"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_61 = !f_61"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_61 = !b_61"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_61"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_61"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_62"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_62 = !f_62"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_62 = !b_62"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_62"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_62"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_63"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_63 = !f_63"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_63 = !b_63"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_63"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_63"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
+<v-sheet class="board_64"
+  color="green darken-1"
+  height="70"
+  width="70"
+  fab
+  tile
+>
+<v-col class="8_dannme">
+      <v-btn class="mt-n10 ml-n3"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="white"
+        @click="f_64 = !f_64"
+      >
+      </v-btn>
+      <v-btn class="mt-n10 ml-n1"
+  x-small
+  fab
+  height="10"
+          width="10"
+        color="black"
+        @click="b_64 = !b_64"
+      >
+      </v-btn>      
+
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="f_64"
+          color="white"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+      <v-expand-transition>
+       <v-avatar class="mt-n7 ml-n1"
+          v-show="b_64"
+          color="black"
+          height="55"
+          width="55"
+        ></v-avatar>
+      </v-expand-transition>
+    </v-col>
+</v-sheet>
+
 </v-flex>
 
 
@@ -879,7 +3040,6 @@ v-for="item_g in 8"
 <script>
 export default {
     data: () => ({
-      expand: false,
       f_1: false,
       b_1: false,
       f_2: false,
@@ -912,6 +3072,102 @@ export default {
       b_15: false,
       f_16: false,
       b_16: false,
+      f_17: false,
+      b_17: false,
+      f_18: false,
+      b_18: false,
+      f_19: false,
+      b_19: false,
+      f_20: false,
+      b_20: false,
+      f_21: false,
+      b_21: false,
+      f_22: false,
+      b_22: false,
+      f_23: false,
+      b_23: false,
+      f_24: false,
+      b_24: false,
+      f_25: false,
+      b_25: false,
+      f_26: false,
+      b_26: false,
+      f_27: false,
+      b_27: false,
+      f_28: false,
+      b_28: false,
+      f_29: false,
+      b_29: false,
+      f_30: false,
+      b_30: false,
+      f_31: false,
+      b_31: false,
+      f_32: false,
+      b_32: false,
+      f_33: false,
+      b_33: false,
+      f_34: false,
+      b_34: false,
+      f_35: false,
+      b_35: false,
+      f_36: false,
+      b_36: false,
+      f_37: false,
+      b_37: false,
+      f_38: false,
+      b_38: false,
+      f_39: false,
+      b_39: false,
+      f_40: false,
+      b_40: false,
+      f_41: false,
+      b_41: false,
+      f_42: false,
+      b_42: false,
+      f_43: false,
+      b_43: false,
+      f_44: false,
+      b_44: false,
+      f_45: false,
+      b_45: false,
+      f_46: false,
+      b_46: false,
+      f_47: false,
+      b_47: false,
+      f_48: false,
+      b_48: false,
+      f_49: false,
+      b_49: false,
+      f_50: false,
+      b_50: false,
+      f_51: false,
+      b_51: false,
+      f_52: false,
+      b_52: false,
+      f_53: false,
+      b_53: false,
+      f_54: false,
+      b_54: false,
+      f_55: false,
+      b_55: false,
+      f_56: false,
+      b_56: false,
+      f_57: false,
+      b_57: false,
+      f_58: false,
+      b_58: false,
+      f_59: false,
+      b_59: false,
+      f_60: false,
+      b_60: false,
+      f_61: false,
+      b_61: false,
+      f_62: false,
+      b_62: false,
+      f_63: false,
+      b_63: false,
+      f_64: false,
+      b_64: false,
 
     }),
   }
